@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="0"
+        android:textSize="120sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/limpar"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="C" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/limparTudo"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="AC" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/porcentagem"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="%" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/divisao"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="÷" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sete"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/oito"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nove"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="9" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/multiplicacao"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="×" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quatro"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cinco"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/seis"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="6" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subtracao"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="-" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/um"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dois"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tres"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/adicao"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="+" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mais_ou_menos"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="+/-" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/zero"
+            style="@style/ButtonCalc"
+            android:layout_width="80dp"
+            android:text="0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/virgula"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="," />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/igual"
+            style="@style/ButtonOp"
+            android:layout_width="80dp"
+            android:text="=" />
+
+    </GridLayout>
+</LinearLayout>
